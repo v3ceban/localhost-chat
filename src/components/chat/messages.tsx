@@ -40,8 +40,7 @@ function emptyStateFor(
     case "idle":
       return {
         title: "No model active",
-        description:
-          "Download a model and activate it to start chatting.",
+        description: "Download a model and activate it to start chatting.",
       };
     case "loading":
     case "recovering":
